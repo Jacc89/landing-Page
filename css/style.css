@@ -235,7 +235,71 @@
 }
 .acerca_de .imagen img{
     width: 28.125rem;
-
-
 }
-/* fin seccion sobre nosotros */
+/* fin sección sobre nosotros */
+/* inicio sección estadisticas */
+.estadisticas_fondo{
+    background-image: linear-gradient(rgba(18, 124, 223,0.274), rgba(68,142,226,0.514)), url("../images/grafica.jpg");
+}
+.estadisticas .elementos_estadistica{
+    text-align: center;
+    color: rgb(240, 248, 255);
+    height: 18.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.estadisticas .elementos_estadistica i{
+    font-size: 3.75rem ;
+    margin: 0 14px;
+}
+
+.estadisticas .elementos_estadistica .estadistica .numero{
+    font-size: 2.5rem ;
+}
+
+.estadisticas .elementos_estadistica .estadistica .titulo{
+    font-size: 1.25rem ;
+}
+/* fin sección de estadisticas*/ 
+
+/* inicio secciòn precios */
+.precios .precio{
+    cursor: pointer;
+    padding-bottom: 2.5rem;
+    width: 17.5rem;
+    text-align: center;
+    transition: box-shadow .3s ease-in-out;
+}
+.precios .precio .cabecera{
+    background-color: rgba(25, 140, 175, 0.781);
+    height: 11.25rem ;
+    color: rgb(240, 248, 255);
+    padding: 2.375rem ;
+    border-radius: 5%;
+}
+.precios .precio .cabecera .titulo,
+.precios .precio .cabecera .valor,
+.precios .precio .cabecera .tipo{
+    font-size: 1.875rem;
+}
+.precios .precio .detalles{
+    margin: 2.5rem;
+}
+.precios .precio .detalles ul{
+    list-style: none;
+    text-align: left;
+    margin-left: 1.875rem;    
+}
+.precios .precio .detalles ul li{
+    font-size: 1.25rem;
+    margin-bottom: 0.625rem;
+}
+.precios .precio:hover{
+    box-shadow: 0 0 22px 3px rgba(18, 124, 223,0.356);
+    transition: box-shadow .3s ease-in-out;
+}
+
+
+/* fin secciòn precios */
